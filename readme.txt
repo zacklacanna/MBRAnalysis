@@ -1,0 +1,3 @@
+Name: Zack LaCanna
+ASUID: 1216178171
+Description: The program works by using argparse to read the type of either 'gpt' or 'mbr' to  deteremine what diagnosis to run on the file that is inputted by user with -f. The program starts with running both the MD5 and SHA sections and writes to the respective file. From here the program will check the args from argparse, and if a GPT diagnosis is run, the GPT section will be run and the same for MBR.
